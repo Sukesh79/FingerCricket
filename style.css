@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(120, 83, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.Main-Section{
+    background-color:rgb(10, 163, 10);
+    height:75vh;
+    width:80vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    outline: 10px;
+    outline-color: white;
+}
+.Toss{
+    height:30%;
+    width: 30vh;
+    background-image : url("https://png.pngtree.com/png-vector/20211006/ourmid/pngtree-cricket-ball-png-image_3971675.png");
+    margin-top: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+}
+
+.Toss > p{
+    color: Black;
+    font-size: 70px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.Main-Section > p {
+    font-size: 50px;
+}
+.EvenOdd{
+    width: 50%;
+    height:20%;
+}
+.EvenOdd > button{
+    width:20%;
+    height:100%;
+    margin-inline:85px;
+    background-color: rgb(111, 110, 110);
+    color : white;
+    border-radius: 50%;
+}
